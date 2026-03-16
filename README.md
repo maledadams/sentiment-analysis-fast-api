@@ -5,6 +5,18 @@ A REST API for real-time sentiment classification built with FastAPI.
 The API accepts text input and returns predicted sentiment labels and confidence scores returns `positive`, `negative`, or `neutral` with a confidence score..
 The project demonstrates how machine learning models can be deployed as scalable APIs.
 
+## Architecture
+
+Client Request
+      ↓
+FastAPI Endpoint
+      ↓
+Sentiment Model
+      ↓
+Prediction Output
+      ↓
+JSON Response
+
 ## Stack
 
 - FastAPI for the REST API
