@@ -1,6 +1,9 @@
 # sentiment-analysis-fast-api
 
-A FastAPI service that performs sentiment analysis on input text and returns `positive`, `negative`, or `neutral` with a confidence score.
+A REST API for real-time sentiment classification built with FastAPI.
+
+The API accepts text input and returns predicted sentiment labels and confidence scores returns `positive`, `negative`, or `neutral` with a confidence score..
+The project demonstrates how machine learning models can be deployed as scalable APIs.
 
 ## Stack
 
