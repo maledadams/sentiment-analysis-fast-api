@@ -7,15 +7,7 @@ The project demonstrates how machine learning models can be deployed as scalable
 
 ## Architecture
 
-Client Request
-      ↓
-FastAPI Endpoint
-      ↓
-Sentiment Model
-      ↓
-Prediction Output
-      ↓
-JSON Response
+Client Request -> FastAPI Endpoint -> Sentiment Model -> Prediction Output -> JSON Response
 
 ## Stack
 
